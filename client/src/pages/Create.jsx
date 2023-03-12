@@ -6,10 +6,10 @@ import Header from "../components/Header";
 export const Create = () => {
 	return (
 		<>
-			<Header/>
+			<Header />
 			<BpNavbar />
 
-		{/* <div>
+			{/* <div>
 		<h2>List Your Item:</h2>
 		<CreateForm />
 		</div> */}
