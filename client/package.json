@@ -13,6 +13,7 @@
 		"@blueprintjs/core": "^4.17.6",
 		"@blueprintjs/icons": "^4.14.3",
 		"@blueprintjs/popover2": "^1.13.10",
+		"cloudinary": "^1.35.0",
 		"clsx": "^1.2.1",
 		"geolocator": "^2.1.5",
 		"graphql": "^16.6.0",
@@ -26,7 +27,7 @@
 		"@types/react": "^18.0.27",
 		"@types/react-dom": "^18.0.10",
 		"@vitejs/plugin-react": "^3.1.0",
-		"sass": "^1.58.3",
+		"sass": "^1.59.2",
 		"vite": "^4.1.0"
 	}
 }

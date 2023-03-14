@@ -24,5 +24,4 @@ html: true
 - Full Stack Developer
 - Loves to learn new things
 
-
 <h1>hu</h1>

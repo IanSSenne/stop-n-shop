@@ -12,18 +12,9 @@ export const LOGIN = gql`
 `;
 
 export const ADD_ITEM = gql`
-	mutation addItem($item: ID!) {
-		addItem(item: $item) {
+	mutation AddItem($title: String, $photos: [String], $location: String, $datePosted: String, $ask: Float) {
+		addItem(title: $title, photos: $photos, Location: $location, datePosted: $datePosted, ask: $ask) {
 			_id
-			title
-			photos
-			Location
-			datePosted
-			tags {
-				tag {
-					name
-				}
-			}
 		}
 	}
 `;
